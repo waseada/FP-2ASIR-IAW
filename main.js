@@ -29,3 +29,36 @@ function EscribeLaLista(json) {
 Esto es un comantario en bloque 
 
  */
+
+let miVariable1
+//tipos de variables
+let nombre = 'Mi nombre' //esta es de tipo string
+let edad = 30 //numero
+let soltero = true //tipo booleano
+let zero = null //valor especail expecifico
+
+let ficha = {
+    nombre: 'Mi nombre',
+    edad: 30,
+    soltero: true
+}
+
+//diferencia de valor y re
+let a = 5
+let b = a
+a=7 //con esto tendremos que el valor de A = 7 y el de B = 5 ya que b obtiene el valor de a antes de cambiar de valor
+
+//Funciones
+let imprimir = function algo(){
+    console.log('Imprime algo')
+}
+
+//array
+let list = [
+    'paul',
+    'john',
+    'george',
+    'ringo'
+]
+
+console.log(list[3])
