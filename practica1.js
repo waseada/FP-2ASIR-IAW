@@ -8,5 +8,3 @@ function saludar (nombre){
     resultado.innerHTML = nombre
 }
 
-
-asa

@@ -53,7 +53,8 @@ let imprimir = function algo(){
     console.log('Imprime algo')
 }
 
-//array
+//array si se hace una lista se realiza con corchetes y para sacar
+//resultados tienes que poner el numero que tiene como posicion en la lista
 let list = [
     'paul',
     'john',
@@ -61,4 +62,44 @@ let list = [
     'ringo'
 ]
 
-console.log(list[3])
+
+function calculadoraNota(numero) {
+    if (numero == 0) {
+        resultado = 'hola que tal'
+    }
+    else {
+        resultado = 'no hola que tal'
+    }
+    console.log(resultado)
+}
+
+function factorial(n) {
+    if (n >= 1) {
+        return n * factorial(n-1)
+    }
+    return 1
+}    console.log(resultado)
+
+
+function factorialWhile(n){
+        let resultado=n
+        let m=n
+        while (m >= 1) {
+            resultado = resultado * n
+            m= m-1
+        }
+    return resultado
+    }
+
+// si usamos el caso de m=m-1 en vez de poner eso podemos poner de forma
+//abreviada m-- en caso negativo o m++ en positivo
+//con el siguiente ejemplo coje la lista de acontinuacion y suma sus numros
+lista [100, 50, 80, 70, 50]
+
+function suma(lista) {
+    resultado = 0
+    for (let i = 0; i < lista.length; i++) {
+        resultado=resultado + lista [i]
+    }
+    return resultado;
+}
